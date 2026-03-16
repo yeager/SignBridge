@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=SignBridge
+Name[sv]=Teckenbrygga
+Comment=Sign language recognition
+Comment[sv]=Teckenspråkstolkning
+GenericName=Accessibility Application
+GenericName[sv]=Tillgänglighetsapp
+Exec=python3 -m signbridge
+Icon=signbridge
+Terminal=false
+Type=Application
+Categories=Utility;Accessibility;
+Keywords=accessibility;a11y;
+Keywords[sv]=tillgänglighet;funktionsnedsättning;
