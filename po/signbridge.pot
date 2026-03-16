@@ -1,0 +1,68 @@
+# SignBridge - Translation template
+# Copyright (C) 2024 SignBridge Team
+# This file is distributed under the same license as the SignBridge package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SignBridge 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: signbridge/app.py
+msgid "Real-time sign language interpretation via camera"
+msgstr ""
+
+#: signbridge/window.py
+msgid "About SignBridge"
+msgstr ""
+
+#: signbridge/window.py
+msgid "Clear history"
+msgstr ""
+
+#: signbridge/window.py
+msgid "Camera is not active. Press Start to begin."
+msgstr ""
+
+#: signbridge/window.py
+msgid "Camera preview will appear here"
+msgstr ""
+
+#: signbridge/window.py
+msgid "Detected Sign"
+msgstr ""
+
+#: signbridge/window.py
+msgid "Current"
+msgstr ""
+
+#: signbridge/window.py
+msgid "History"
+msgstr ""
+
+#: signbridge/window.py
+msgid "Start Camera"
+msgstr ""
+
+#: signbridge/window.py
+msgid "Stop Camera"
+msgstr ""
+
+#: signbridge/window.py
+msgid "Camera active — show signs to the camera"
+msgstr ""
+
+#: signbridge/window.py
+msgid "Could not open camera. Check permissions."
+msgstr ""
+
+#: signbridge/window.py
+msgid "Camera stopped."
+msgstr ""

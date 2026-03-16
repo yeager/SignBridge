@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=SignBridge
+Name[sv]=SignBridge
+GenericName=Sign Language Interpreter
+GenericName[sv]=Teckenspråkstolk
+Comment=Real-time sign language interpretation via camera
+Comment[sv]=Realtids-teckenspråkstolkning via kamera
+Exec=signbridge
+Icon=camera-video-symbolic
+Terminal=false
+Type=Application
+Categories=Accessibility;Education;Utility;
+Keywords=sign;language;TAKK;TSS;deaf;accessibility;
+Keywords[sv]=teckenspråk;TAKK;TSS;döva;tillgänglighet;
+StartupNotify=true
