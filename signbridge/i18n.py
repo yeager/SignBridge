@@ -1,30 +1,30 @@
-"""Internationalization setup for SignBridge."""
-
 import gettext
 import locale
 import os
 
-APP_NAME = "signbridge"
+DOMAIN = "signbridge"
+LOCALEDIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "locale")
 
-localedir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "po", "locale")
-if not os.path.isdir(localedir):
-    localedir = os.path.join(sys.prefix, "share", "locale") if "sys" in dir() else localedir
+# System locale dirs
+SYSTEM_LOCALEDIRS = [
+    LOCALEDIR,
+    "/usr/share/locale",
+    "/usr/local/share/locale",
+]
 
 try:
     locale.setlocale(locale.LC_ALL, "")
 except locale.Error:
     pass
 
-import sys
-
-for loc_dir in [
-    localedir,
-    os.path.join(sys.prefix, "share", "locale"),
-    "/usr/share/locale",
-]:
-    if os.path.isdir(loc_dir):
-        localedir = loc_dir
+# Find locale dir with our translations
+for d in SYSTEM_LOCALEDIRS:
+    if os.path.isdir(d):
+        gettext.bindtextdomain(DOMAIN, d)
         break
+else:
+    gettext.bindtextdomain(DOMAIN, LOCALEDIR)
 
-translation = gettext.translation(APP_NAME, localedir=localedir, fallback=True)
-_ = translation.gettext
+gettext.textdomain(DOMAIN)
+_ = gettext.gettext
+
