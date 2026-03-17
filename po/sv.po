@@ -1,69 +1,47 @@
-# Swedish translation for SignBridge
-# Copyright (C) 2024 SignBridge Team
-# This file is distributed under the same license as the SignBridge package.
-#
+# Translation file for SignBridge
 msgid ""
 msgstr ""
-"Project-Id-Version: SignBridge 1.0.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-01 00:00+0000\n"
-"PO-Revision-Date: 2024-01-01 00:00+0000\n"
-"Last-Translator: SignBridge Team\n"
-"Language-Team: Swedish\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: signbridge/app.py
-msgid "Real-time sign language interpretation via camera"
-msgstr "Realtids-teckenspråkstolkning via kamera"
-
-#: signbridge/window.py
 msgid "About SignBridge"
 msgstr "Om SignBridge"
 
-#: signbridge/window.py
 msgid "Clear history"
-msgstr "Rensa historik"
+msgstr "Töm historik"
 
-#: signbridge/window.py
 msgid "Camera is not active. Press Start to begin."
-msgstr "Kameran är inte aktiv. Tryck på Start för att börja."
+msgstr "Kameran är inte aktiv. Tryck på Starta för att börja."
 
-#: signbridge/window.py
 msgid "Camera preview will appear here"
-msgstr "Kameraförhandsgranskning visas här"
+msgstr "Förhandsvisning av kameran visas här"
 
-#: signbridge/window.py
 msgid "Detected Sign"
-msgstr "Detekterat tecken"
+msgstr "Upptäckt tecken"
 
-#: signbridge/window.py
 msgid "Current"
-msgstr "Aktuellt"
+msgstr "Nuvarande"
 
-#: signbridge/window.py
 msgid "History"
 msgstr "Historik"
 
-#: signbridge/window.py
 msgid "Start Camera"
 msgstr "Starta kamera"
 
-#: signbridge/window.py
 msgid "Stop Camera"
 msgstr "Stoppa kamera"
 
-#: signbridge/window.py
 msgid "Camera active — show signs to the camera"
-msgstr "Kameran är aktiv — visa tecken mot kameran"
+msgstr "Kameran aktiv — visa tecken för kameran"
 
-#: signbridge/window.py
 msgid "Could not open camera. Check permissions."
-msgstr "Kunde inte öppna kameran. Kontrollera behörigheter."
+msgstr "Kunde inte öppna kameran. Kontrollera behörighet."
 
-#: signbridge/window.py
 msgid "Camera stopped."
 msgstr "Kameran stoppad."
+
+msgid "Real-time sign language interpretation via camera"
+msgstr "Teckenspråkstolkning i realtid via kamera"
+
